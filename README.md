@@ -1,4 +1,4 @@
-# 练习项目，自己封装的实用框架结构
+# COSPLAY
 
 ### 封装组件 
 * smarty/smarty 
