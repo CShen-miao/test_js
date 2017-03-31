@@ -1,7 +1,35 @@
+<?php
+/* Smarty version 3.1.31, created on 2017-03-31 16:31:20
+  from "/usr/local/nginx/html/practice/test_js/app/Admin/Tpl/register.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.31',
+  'unifunc' => 'content_58de845868ad18_68084544',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '483f9ec2f433a7cbc93e88e397db5f41435b58e0' => 
+    array (
+      0 => '/usr/local/nginx/html/practice/test_js/app/Admin/Tpl/register.html',
+      1 => 1490976845,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:inc/header.html' => 1,
+    'file:inc/footer.html' => 1,
+  ),
+),false)) {
+function content_58de845868ad18_68084544 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html>
 
-<{include file="inc/header.html"}>
+<?php $_smarty_tpl->_subTemplateRender("file:inc/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
 
 <body class="hold-transition register-page">
 <div class="register-box">
@@ -59,9 +87,14 @@
 </div>
 <!-- /.register-box -->
 
-<{include file="inc/footer.html"}>
-<script src="../../../public/Admin/Js/login.js"></script>
-<script>
+<?php $_smarty_tpl->_subTemplateRender("file:inc/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
+<?php echo '<script'; ?>
+ src="../../../public/Admin/Js/login.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+>
   $(function () {
     $('input').iCheck({
       checkboxClass: 'icheckbox_square-blue',
@@ -69,6 +102,9 @@
       increaseArea: '20%' // optional
     });
   });
-</script>
+<?php echo '</script'; ?>
+>
 </body>
 </html>
+<?php }
+}
