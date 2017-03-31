@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpexcel": "^1.8",
+        "smarty/smarty": "^3.1"
+    }
+}
