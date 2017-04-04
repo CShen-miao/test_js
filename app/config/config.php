@@ -1,6 +1,8 @@
 <?php
 
 # smarty
+
+$_assets = '../../../public/Public/';//样式文件在tpl中相对的路径引用
 define('REAL_PATH',dirname(__FILE__));
 require(REAL_PATH.'/../../vendor/smarty/smarty/libs/Smarty.class.php');
 $_smarty = new Smarty();
